@@ -1,12 +1,28 @@
 {
-  "packageDirectories": [
-    {
-      "path": "force-app",
-      "default": true
+    "packageDirectories": [
+        {
+            "path": "force-app",
+            "default": true,
+            "package": "MasterDataDomainA",
+            "versionName": "ver 1.0",
+            "versionNumber": "1.0.0.NEXT"
+        },
+        {
+            "path": "force-app",
+            "default": false,
+            "package": "DataDomainA",
+            "versionName": "ver 1.0",
+            "versionNumber": "1.0.0.NEXT"
+        }
+    ],
+    "name": "DataDomainA",
+    "namespace": "",
+    "sfdcLoginUrl": "https://login.salesforce.com",
+    "sourceApiVersion": "52.0",
+    "packageAliases": {
+        "DataDomainA": "0Ho09000000XZwwCAG",
+        "DataDomainA@1.0.0-1": "04t09000000O0gIAAS",
+        "MasterDataDomainA": "0Ho09000000XZx6CAG",
+        "MasterDataDomainA@1.0.0-1": "04t09000000O0gSAAS"
     }
-  ],
-  "name": "DataDomainA",
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "52.0"
 }
